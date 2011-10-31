@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devchamp.SentenceCompression.Tests", "Devchamp.SentenceCompressor.Tests\Devchamp.SentenceCompression.Tests.csproj", "{0FA28A80-AB66-413F-9C85-85503721120E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devchamp.SentenceCompression", "Devchamp.SentenceCompressor\Devchamp.SentenceCompression.csproj", "{317D5FD3-3A73-4C09-9932-45A262544E99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FA28A80-AB66-413F-9C85-85503721120E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA28A80-AB66-413F-9C85-85503721120E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA28A80-AB66-413F-9C85-85503721120E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA28A80-AB66-413F-9C85-85503721120E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317D5FD3-3A73-4C09-9932-45A262544E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317D5FD3-3A73-4C09-9932-45A262544E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317D5FD3-3A73-4C09-9932-45A262544E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317D5FD3-3A73-4C09-9932-45A262544E99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
