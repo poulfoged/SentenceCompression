@@ -18,10 +18,10 @@ of two or three bytes.
 
 Most other libraries won't compress text shorter than 100 bytes
 
-These are some compression examples from the original author:
-
 Compression examples
 --------------------
+
+These are some compression examples from the original author:
 
 * 'This is a small string' compressed by 50%
 * 'foobar' compressed by 34%
@@ -62,4 +62,4 @@ Decompress the string input and return the decompressed data.
 Credits
 -------
 
-Sentence Compression was written by Poul Foged, based on the work of Salvatore Sanfilippo and is released under the BSD license. Check the COPYING file for more information.
+Sentence Compression was written by Poul Foged, based on the work of Salvatore Sanfilippo and is released under the BSD license. Check the copying file for more information.
