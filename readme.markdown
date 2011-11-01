@@ -1,14 +1,14 @@
-SentenceCompression - compression for very small strings
+Sentence Compression - compression for very small strings
 -------------------
 
 This is a port of <a href="https://github.com/antirez/smaz">SMAZ c-library</a> a simple compression library for compressing short
 tweet-like strings.
 
-Although the code differs a lot, coming from c to c#, SentenceCompression should be 
+Although the code differs a lot, coming from c to c#, Sentence Compression should be 
 100% compatible with the original library.
 
 I ported it to test it against and in combination with other libraries to be able to 
-store short strings individuallyl for fast read/write access.
+store short strings individually for fast read/write access.
 
 It really can't compress anything else but plain strings, but on most plain English texts
 it will archive around 40-50% compression ratio. 
@@ -16,7 +16,7 @@ it will archive around 40-50% compression ratio.
 It also handles HTML, urls etc. and can even archive good results on really short strings 
 of two or three bytes.
 
-Most other libraries won't comress text shorter than 100 bytes
+Most other libraries won't compress text shorter than 100 bytes
 
 These are some compression examples from the original author:
 
@@ -62,4 +62,4 @@ Decompress the string input and return the decompressed data.
 CREDITS
 -------
 
-SMAZ was writte by Salvatore Sanfilippo and is released under the BSD license. Check the COPYING file for more information.
+SMAZ was written by Salvatore Sanfilippo and is released under the BSD license. Check the COPYING file for more information.
