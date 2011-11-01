@@ -23,29 +23,29 @@ These are some compression examples from the original author:
 Compression examples
 --------------------
 
-'This is a small string' compressed by 50%
-'foobar' compressed by 34%
-'the end' compressed by 58%
-'not-a-g00d-Exampl333' enlarged by 15%
-'Smaz is a simple compression library' compressed by 39%
-'Nothing is more difficult, and therefore more precious, than to be able to decide' compressed by 49%
-'this is an example of what works very well with smaz' compressed by 49%
-'1000 numbers 2000 will 10 20 30 compress very little' compressed by 10%
+* 'This is a small string' compressed by 50%
+* 'foobar' compressed by 34%
+* 'the end' compressed by 58%
+* 'not-a-g00d-Exampl333' enlarged by 15%
+* 'Smaz is a simple compression library' compressed by 39%
+* 'Nothing is more difficult, and therefore more precious, than to be able to decide' compressed by 49%
+* 'this is an example of what works very well with smaz' compressed by 49%
+* '1000 numbers 2000 will 10 20 30 compress very little' compressed by 10%
 
 In general, lowercase English will work very well. It will suck with a lot
 of numbers inside the strings. Other languages are compressed pretty well too,
 the following is Italian, not very similar to English but still compressible
 by smaz:
 
-'Nel mezzo del cammin di nostra vita, mi ritrovai in una selva oscura' compressed by 33%
+* 'Nel mezzo del cammin di nostra vita, mi ritrovai in una selva oscura' compressed by 33%
 
 It can compress URLS pretty well:
 
-'http://google.com' compressed by 59%
-'http://programming.reddit.com' compressed by 52%
-'http://github.com/antirez/smaz/tree/master' compressed by 46%
+* 'http://google.com' compressed by 59%
+* 'http://programming.reddit.com' compressed by 52%
+* 'http://github.com/antirez/smaz/tree/master' compressed by 46%
 
-USAGE
+Usage
 -----
 
 The lib consists of just two functions:
@@ -59,7 +59,7 @@ Compress the string input and return the compressed data.
 Decompress the string input and return the decompressed data.
 
 
-CREDITS
+Credits
 -------
 
-SMAZ was written by Salvatore Sanfilippo and is released under the BSD license. Check the COPYING file for more information.
+Sentence Compression was written by Poul Foged, based on the work of Salvatore Sanfilippo and is released under the BSD license. Check the COPYING file for more information.
